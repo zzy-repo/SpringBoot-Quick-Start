@@ -9,7 +9,7 @@
         <version>3.3.3</version>
     </parent>
 
-    <artifactId>MyBlog</artifactId>
+    <artifactId>SpringBoot-Quick-Start</artifactId>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
@@ -128,18 +128,16 @@
                 <version>5.8.16</version>
             </dependency>
             <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid-spring-boot-starter</artifactId>
-                <version>1.2.23</version>
-            </dependency>
-            <dependency>
                 <groupId>org.springdoc</groupId>
                 <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
                 <version>2.6.0</version>
             </dependency>
-
-
-
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>1.2.23</version>
+            </dependency>
+            
             <dependency>
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-spring</artifactId>
