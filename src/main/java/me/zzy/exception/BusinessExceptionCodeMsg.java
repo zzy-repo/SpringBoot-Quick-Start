@@ -1,4 +1,4 @@
-package com.zzy.exception;
+package me.zzy.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,10 +1,10 @@
-package com.zzy.entity.resp;
+package me.zzy.response;
 
-import com.zzy.exception.BusinessException;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import me.zzy.exception.BusinessException;
 
 @Data
 @Builder

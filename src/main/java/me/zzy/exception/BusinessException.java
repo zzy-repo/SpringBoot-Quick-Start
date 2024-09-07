@@ -1,4 +1,4 @@
-package com.zzy.exception;
+package me.zzy.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,7 +11,7 @@ public class BusinessException extends RuntimeException {
     private int ExceptionCode = 500;
     private String ExceptionMsg = "服务器异常";
 
-    public BusinessException(BusinessExceptionCodeMsg businessExceptionCodeMsg) {
+    public BusinessException(me.zzy.exception.BusinessExceptionCodeMsg businessExceptionCodeMsg) {
         super(businessExceptionCodeMsg.getMsg());
         this.ExceptionCode = businessExceptionCodeMsg.getCode();
         this.ExceptionMsg = businessExceptionCodeMsg.getMsg();

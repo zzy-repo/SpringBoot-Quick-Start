@@ -9,11 +9,6 @@
 - **异常处理**：配置了全局异常响应。🚧
 - **API文档**：配置了springdoc，提供API文档支持。📚
   
-  > **API访问地址：**
-  >
-  > Swagger UI: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
-  >
-  > API Docs: [http://localhost:8080/api-docs](http://localhost:8080/api-docs)
 ### 快速开始
 #### 克隆项目
 ```bash
